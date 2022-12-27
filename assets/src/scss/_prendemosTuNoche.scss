@@ -1,0 +1,31 @@
+:root {
+    --color-green-200: #2C165B;
+    --color-green-600: #f1f1f1 ;
+  }
+  .animacionPrendemos {
+    color: #f09;
+    font-size: 110%;
+    font-weight: bold;
+    background-image: linear-gradient(
+        var(--color-green-600),
+        var(--color-green-600)
+      ),
+      linear-gradient(var(--color-green-200), var(--color-green-200));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: 0% 100%, 100% 100%;
+    background-repeat: no-repeat, no-repeat;
+  
+    animation: fill 2s linear infinite;
+  }
+  
+  @keyframes fill {
+    to {
+      background-size: 100% 100%, 100% 100%;
+    }
+  }
+.thisNightTitulo{
+    font-size: 400%;
+}
+  
