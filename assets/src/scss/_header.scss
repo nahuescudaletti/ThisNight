@@ -1,9 +1,28 @@
 
 .fondoHeader{
 
-    background-image: url(/assets/img/Fondo-liso.jpg);
-    max-height:max-content;
+background-image: url(assets/img/Fondo-liso.jpg);
+max-height:max-content;
+background-repeat: no-repeat;
+background-size: cover;
 }
-.thisNightTitulo{
+
+.thisNightTitulo2{
     color: white;
+    font-size: 5vw ;
+    font-family: 'Asap', sans-serif; 
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+.thisNightTitulo1{
+    color: white;
+    font-size: 8vw ;
+    font-family: 'Asap', sans-serif; 
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+.text-center{
+margin: 0;
 }
