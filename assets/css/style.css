@@ -5,7 +5,7 @@
 }
 
 .fondoHeader {
-  background-image: url(/assets/img/Fondo-liso.jpg);
+  background-image: url(../img/Fondo-liso.jpg);
   max-height: -webkit-max-content;
   max-height: -moz-max-content;
   max-height: max-content;
